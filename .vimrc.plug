@@ -1,0 +1,17 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+Plug 'derekwyatt/vim-scala'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'arcticicestudio/nord-vim'
+Plug 'preservim/nerdtree'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'gertjanreynaert/cobalt2-vim-theme', { 'as': 'cobalt2' }
+
+" Plug 'peitalin/vim-jsx-typescript'
+" Plug 'sheerun/vim-polyglot'
+
+call plug#end()
